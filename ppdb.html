@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PPDB — Yayasan Darul Furqan Pariaman</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="container topbar-inner">
+    <div class="brand">
+      <span class="logo">DF</span>
+      <div>
+        <div class="brand-name">Yayasan Darul Furqan</div>
+        <div class="brand-sub">Pariaman, Sumatera Barat</div>
+      </div>
+    </div>
+    <nav class="nav">
+      <a href="index.html">Beranda</a>
+      <a href="profil.html">Profil</a>
+      <a href="ppdb.html" class="active">PPDB</a>
+      <a href="berita.html">Berita &amp; Agenda</a>
+      <a href="galeri.html">Galeri</a>
+      <a href="login.html" class="btn-login">Login</a>
+    </nav>
+  </div>
+</header>
+
+<section class="page">
+  <div class="container">
+    <h2>Pendaftaran Peserta Didik Baru</h2>
+
+    <h3>Alur Pendaftaran</h3>
+    <div class="card-row" style="margin-bottom:24px;">
+      <div class="card"><div class="icon"><i class="fa-solid fa-1"></i></div><h4>Isi Formulir</h4><p>Lengkapi data calon siswa pada formulir online.</p></div>
+      <div class="card"><div class="icon"><i class="fa-solid fa-2"></i></div><h4>Unggah Dokumen</h4><p>Lampirkan KK, akta, dan rapor terakhir.</p></div>
+      <div class="card"><div class="icon"><i class="fa-solid fa-3"></i></div><h4>Verifikasi</h4><p>Admin memverifikasi kelengkapan data.</p></div>
+    </div>
+
+    <h3>Formulir Pendaftaran</h3>
+    <form class="form">
+      <label>Nama Lengkap Calon Siswa</label>
+      <input type="text" placeholder="Nama lengkap">
+
+      <label>NISN</label>
+      <input type="text" placeholder="Nomor Induk Siswa Nasional">
+
+      <label>Tanggal Lahir</label>
+      <input type="date">
+
+      <label>Jenjang</label>
+      <select>
+        <option>PAUD</option>
+        <option>SDIT</option>
+        <option>Pondok Pesantren</option>
+      </select>
+
+      <label>Nama Orang Tua / Wali</label>
+      <input type="text" placeholder="Nama orang tua">
+
+      <label>No. Telepon</label>
+      <input type="text" placeholder="08xx-xxxx-xxxx">
+
+      <label>Unggah Dokumen (Kartu Keluarga, Akta, Rapor)</label>
+      <input type="file">
+
+      <button type="button" class="btn-primary">Submit Formulir</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div><h4>Yayasan Darul Furqan Pariaman</h4><p class="muted">Mendidik generasi Qurani, berakhlak mulia, dan berdaya saing.</p></div>
+      <div><h4>Menu</h4><a href="index.html">Beranda</a><a href="profil.html">Profil</a><a href="ppdb.html">PPDB</a><a href="berita.html">Berita &amp; Agenda</a><a href="galeri.html">Galeri</a></div>
+      <div><h4>Kontak</h4><a href="#">Kota Pariaman, Sumbar</a><a href="#">0812-3456-7890</a><a href="#">info@darulfurqan.sch.id</a></div>
+    </div>
+    <div class="footer-bottom">© 2026 Yayasan Darul Furqan Pariaman — PAUD · SDIT · Pondok Pesantren</div>
+  </div>
+</footer>
+</body>
+</html>
